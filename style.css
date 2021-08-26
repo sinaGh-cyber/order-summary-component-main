@@ -38,6 +38,11 @@ p {
   width: 20rem;
   height: 33rem;
   border-radius: 2rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
 }
 /* illustation hero */
 .happy-music-img {
@@ -96,22 +101,49 @@ p {
   color: var(--Dark-blue);
   font-weight: 900;
   font-size: small;
-  
 }
 .plan-text {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
 
 .plan a {
-    font-size: smaller;
-    margin-right: .6rem;
+  font-size: smaller;
+  margin-right: 0.6rem;
 }
 
 .plan a:active {
   color: rgb(107, 62, 212);
   text-decoration: none;
-  
 }
+
+/* buttons */
+
+.btn {
+  height: 9%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 1rem;
+  margin: 0.6rem auto;
+  text-decoration: none;
+}
+
+.btn.primary-btn {
+  background-color: var(--Bright-blue);
+  color: #fff;
+}
+.btn.primary-btn:active {
+    background-color: rgb(107, 62, 212);
+  }
+.btn.secandary-btn {
+  color: var(--Desaturated-blue);
+}
+.btn.secandary-btn:active {
+    color: var(--Dark-blue);
+  }
 /* front end mentor defult styles */
 
 .attribution {
